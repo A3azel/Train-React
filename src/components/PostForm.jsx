@@ -4,7 +4,6 @@ import MyButton from "../UI/button/MyButton";
 
 const PostForm = ({create}) => {
     const [post, setPost] = useState({title: '', postText: ''});
-
     const addPost = (e) =>{
         e.preventDefault();
         const newPost = {
